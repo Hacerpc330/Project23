@@ -1,0 +1,95 @@
+.container{
+    display: grid;
+    grid-template-areas:
+                        "sidebar_1 header header header header header header"
+                        "sidebar_1 column_1 column_2 column_3 column_4 column_5 column_6"
+                        "sidebar_2 column_1 column_2 column_3 column_4 column_5 column_6"
+                        "sidebar_2 button_1 button_2 button_3 button_4 button_5 button_6"
+                        "sidebar_2 img_1 img_1 img_1 content_1 content_1 content_1"
+                        "sidebar_3 img_2 img_2 img_2 content_2 content_2 content_2";
+    text-align: center;
+    grid-template-columns: 300px 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 2fr 1fr 2fr 1fr 2fr 1fr;
+    grid-gap: 20px;
+    height: 1000px;
+}
+.sidebar_1{
+    grid-area: sidebar_1;
+    background-color: blueviolet;   
+}
+.sidebar_2{
+    grid-area: sidebar_2;
+    background-color: rgb(214, 226, 43);
+}
+.sidebar_3{
+    grid-area: sidebar_3;
+    background-color: rgb(43, 226, 89);
+}
+.header{
+    grid-area: header;
+    background-color: rgb(43, 226, 89);
+}
+.column_1{
+    grid-area:column_1;
+    background-color: rgb(255, 0, 0);
+}
+.column_2{
+    grid-area:column_2;
+    background-color: blueviolet;   
+}
+.column_3{
+    grid-area:column_3;
+    background-color: rgb(214, 226, 43);
+}
+.column_4{
+    grid-area:column_4;
+    background-color: rgb(43, 226, 89);
+}
+.column_5{
+    grid-area:column_5;
+    background-color: rgb(255, 0, 0);
+}
+.column_6{
+    grid-area:column_6;
+    background-color: blueviolet;   
+}
+.button_1{
+    grid-area:button_1;
+    background-color: rgb(214, 226, 43);
+}
+.button_2{
+    grid-area:button_2;
+    background-color: rgb(43, 226, 89);
+}
+.button_3{
+    grid-area: button_3;
+    background-color: rgb(255, 0, 0);
+}
+.button_4{
+    grid-area:button_4;
+    background-color: blueviolet;   
+}
+.button_5{
+    grid-area:button_5;
+    background-color: rgb(214, 226, 43);
+}
+.button_6{
+    grid-area:button_6;
+    background-color: rgb(43, 226, 211);
+}
+.img_1{
+    grid-area:img_1;
+    background-color: rgb(43, 226, 89);
+}
+.img_2{
+    grid-area: img_2;
+    background-color: rgb(255, 0, 0);
+}
+.content_1{
+    grid-area: content_1;
+    background-color: rgb(255, 0, 0);
+}
+.content_2{
+    grid-area: content_2;
+    background-color: rgb(255, 0, 0);
+}
